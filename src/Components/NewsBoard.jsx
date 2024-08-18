@@ -17,7 +17,8 @@ const NewsBoard = ({ category }) => {
   return (
     <div>
       <h2 className="text-center ">
-        Latest<span className="badge bg-danger text-dark fs-3">News</span>
+        Latest
+        <span className="badge bg-danger text-dark fs-3">Upcoming News</span>
       </h2>
       {articles.map((news, index) => {
         return (
