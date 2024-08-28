@@ -19,14 +19,14 @@ const NewsBoard = ({ category }) => {
       <h2 className="text-center ">
         Latest
         <span className="badge bg-danger text-dark fs-3">
-          Upcoming Latest News
+          Upcoming  News
         </span>
       </h2>
       {articles.map((news, index) => {
         return (
           <NewsItem
             key={index}
-            title={news.title}
+              title={news.title}
             description={news.description}
             src={news.urlToImage}
             url={news.url}
